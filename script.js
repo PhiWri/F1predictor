@@ -7,7 +7,7 @@ const driver = ["Max Verstappen", "Lando Norris", "Charles Leclerc", "Lewis Hami
 const newWinner = ["Andrea Kimi Antonelli", "Nico Hulkenberg", "Yuki Tsunoda", "Liam Lawson", 
                    "Alex Albon", "Lance Stroll", "Oliver Bearman", "Jack Doohan"];
 
-//Generate random number skewed towards lower end
+//Generate random number skewed towards lower end to make predictions more realistic
 function randomNumber(arr) {
     return Math.floor((1 - Math.cbrt(Math.random())) * arr.length);
 }
